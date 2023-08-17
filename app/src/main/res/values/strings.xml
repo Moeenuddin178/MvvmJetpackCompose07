@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVVM JETPACK 07</string>
+    <string name="product_name_placeholder">Products</string>
+    <string name="product_description_placeholder">"Product Descriiotion \nProduct Descriiotion \nProduct Descriiotion "</string>
+</resources>
