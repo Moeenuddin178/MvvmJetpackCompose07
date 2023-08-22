@@ -24,7 +24,7 @@ fun HomeFragment(modifier: Modifier) {
             verticalArrangement = Arrangement.spacedBy(16.dp),
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            items(60) {
+            items(160) {
                 ProductCard(modifier)
             }
         }
