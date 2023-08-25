@@ -17,7 +17,7 @@ import com.example.mvvmjetpack07.ui.theme.MVVMJETPACK07Theme
 @Composable
 fun HomeFragment(
     modifier: Modifier,
-    onClickToDetailScreen: () -> Unit = {},
+    onClickToDetailScreen: (Int) -> Unit = {},
 ) {
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -35,7 +35,10 @@ fun HomeFragment(
                         .padding(
                             top = 16.dp
                         ),
-                    onClickProduct = onClickToDetailScreen)
+                    onClickProduct = {
+                        onClickToDetailScreen.invoke(1) // gamesId is 1 temporary
+                    }
+                )
             }
         }
     }
